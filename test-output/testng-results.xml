@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully opened tab 2 ]]>
+    </line>
+    <line>
+      <![CDATA[Test passed successfully ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-01-06T13:28:44 SAST" name="Default suite" finished-at="2022-01-06T13:29:31 SAST" duration-ms="46907">
+    <groups>
+    </groups>
+    <test started-at="2022-01-06T13:28:44 SAST" name="Default test" finished-at="2022-01-06T13:29:31 SAST" duration-ms="46907">
+      <class name="com.Framework.Automation.AppTest">
+        <test-method signature="Login()[pri:0, instance:com.Framework.Automation.AppTest@4bb33f74]" started-at="2022-01-06T13:28:44 SAST" name="Login" finished-at="2022-01-06T13:28:53 SAST" duration-ms="8921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="shop()[pri:0, instance:com.Framework.Automation.AppTest@4bb33f74]" started-at="2022-01-06T13:28:53 SAST" name="shop" finished-at="2022-01-06T13:29:31 SAST" depends-on-methods="com.Framework.Automation.AppTest.Login" duration-ms="37883" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully opened tab 2 ]]>
+            </line>
+            <line>
+              <![CDATA[Test passed successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shop -->
+      </class> <!-- com.Framework.Automation.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
